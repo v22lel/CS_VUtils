@@ -20,5 +20,10 @@ public class Enumerate<T>(Iterator<T?> iterator) : Iterator<Enumerate<T>.Indexed
         {
             return $"[{index}: {t.ToString()}]";
         }
+
+        public static implicit operator (int, T?)(Indexed instance)
+        {
+            return (instance.index, instance.t);
+        }
     }
 }

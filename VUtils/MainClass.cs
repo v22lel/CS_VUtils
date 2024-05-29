@@ -14,12 +14,12 @@ public class MainClass
             .Map(x => x.ToString())
             .Chunks(3)
             .Enumerate()
-            .ForEach(idx =>
+            .ForEach(entry =>
             {
-                var str = idx.t
+                var str = entry.t
                     .Enumerate()
                     .Join(", ");
-                Console.WriteLine($"Chunk {idx.index}: " + str);
+                Console.WriteLine($"Chunk {entry.index}: " + str);
             });
 
         var sumEven = iter2
