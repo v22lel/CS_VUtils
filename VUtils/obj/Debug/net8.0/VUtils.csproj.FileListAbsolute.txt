@@ -1,0 +1,11 @@
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\bin\Debug\net8.0\VUtils.deps.json
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\bin\Debug\net8.0\VUtils.dll
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\bin\Debug\net8.0\VUtils.pdb
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUtils.AssemblyInfoInputs.cache
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUtils.AssemblyInfo.cs
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUtils.csproj.CoreCompileInputs.cache
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUtils.dll
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\refint\VUtils.dll
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUtils.pdb
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\ref\VUtils.dll
