@@ -70,6 +70,25 @@ public abstract class Iterator<T> : IEnumerable<T?>
         return init;
     }
 
+    public string Join(string joinStr)
+    {
+        var ret = "";
+        var next = Next();
+        while (next)
+        {
+            string str = next.Get() == null ? "null" : next.Get().ToString();
+            ret += str;
+            
+            next = Next();
+            if (next)
+            {
+                ret += joinStr;
+            }
+        }
+
+        return ret;
+    }
+
     private class ArrayIterator<R>(params R?[] items) : Iterator<R?>
     {
         private int index;

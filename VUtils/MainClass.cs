@@ -11,18 +11,21 @@ public class MainClass
         var iter2 = Iterator<int>.Of(1, 2, 3, 4, 5, 2, 4, 2);
         
         iter
-            .Map(x => x + ",")
+            .Map(x => x.ToString())
             .Chunks(3)
-            .ForEach(i =>
+            .Enumerate()
+            .ForEach(idx =>
             {
-                i.ForEach(Console.Write);
-                Console.WriteLine();
+                var str = idx.t
+                    .Enumerate()
+                    .Join(", ");
+                Console.WriteLine($"Chunk {idx.index}: " + str);
             });
 
         var sumEven = iter2
             .Filter(x => x % 2 == 0)
             .Fold( new Ref<int>(0), (acc, x) => acc.t += x)
             .t;
-        Console.WriteLine(sumEven);
+        Console.WriteLine("SumEven: " + sumEven);
     }
 }
