@@ -9,3 +9,4 @@ C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUti
 C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\refint\VUtils.dll
 C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUtils.pdb
 C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\ref\VUtils.dll
+C:\Users\v22ju\Desktop\coding\dotnet\c#\libs\VUtils\VUtils\obj\Debug\net8.0\VUtils.sourcelink.json
